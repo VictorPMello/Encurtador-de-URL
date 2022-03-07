@@ -1,5 +1,5 @@
-import { URLController } from "controller/URLController";
-import { MongoConnection } from "database/MongoConnection";
+import { URLController } from "./controller/URLController";
+import { MongoConnection } from "./database/MongoConnection";
 import express from "express";
 
 const api = express();
